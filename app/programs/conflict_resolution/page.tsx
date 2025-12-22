@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../../public/programs_images/img3.jpg"; // replace with a peace/conflict-resolution-related image
+
 
 const Page = () => {
   const programData = {
@@ -49,7 +49,7 @@ const Page = () => {
       {/* Hero Section */}
       <div
         className="py-32 h-[256px] bg-center bg-cover bg-no-repeat relative"
-        style={{ backgroundImage: `url(${img1.src})` }}
+        style={{ backgroundImage: `url('/programs_images/img3.jpg')` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
