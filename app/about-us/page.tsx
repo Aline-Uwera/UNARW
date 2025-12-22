@@ -77,7 +77,7 @@ const AboutSection = () => {
                   Information, Training, and Resource Centre
                 </li>
                 <li className="leading-8 text-[17px] text-gray-700 mb-2 list-disc list-inside">
-                  Human and People's Rights
+                  Human and People Rights
                 </li>
                 <li className="leading-8 text-[17px] text-gray-700 mb-2 list-disc list-inside">
                   School-Net
