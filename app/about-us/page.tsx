@@ -1,15 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import SDGs from "../../public/SDGs.png";
-import aboutImage from "../../public/about.jpg";
 
-export const AboutSection = () => {
+const AboutSection = () => {
   return (
     <div className="">
       {/* Background Banner */}
       <div
         className="py-32 h-[256px] bg-center bg-cover bg-no-repeat relative"
-        style={{ backgroundImage: `url(${aboutImage.src})` }}
+        style={{ backgroundImage: `url('/about.jpg')` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-0"></div>
       </div>
@@ -21,7 +19,7 @@ export const AboutSection = () => {
             {/* Left: Big Image */}
             <div className="flex justify-center">
               <Image
-                src={SDGs.src}
+                src="/SDGs.png"
                 width={500}
                 height={500}
                 alt="UNA-RWANDA"
@@ -79,7 +77,7 @@ export const AboutSection = () => {
                   Information, Training, and Resource Centre
                 </li>
                 <li className="leading-8 text-[17px] text-gray-700 mb-2 list-disc list-inside">
-                  Human and People’s Rights
+                  Human and People's Rights
                 </li>
                 <li className="leading-8 text-[17px] text-gray-700 mb-2 list-disc list-inside">
                   School-Net
@@ -91,7 +89,7 @@ export const AboutSection = () => {
               <p className="leading-8 text-[17px] text-gray-700 mb-5">
                 UNA-RWANDA is part of a global network of UN Associations
                 coordinated by the{" "}
-                <a
+                
                   href="https://www.wfuna.org/"
                   target="_blank"
                   className="text-blue-500 underline"
@@ -103,7 +101,7 @@ export const AboutSection = () => {
 
               {/* CTA Button */}
               <div className="mt-8">
-                <a
+                
                   href="/get-involved"
                   target="_blank"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-sm font-medium"
