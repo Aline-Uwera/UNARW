@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import bgImage from "../../public/unHome.png";
+
 import Link from "next/link";
 import Loading from "@/components/ui/Loading";
 
@@ -136,7 +136,7 @@ export default function Media() {
     <div>
       <div
         className="py-32 h-[256px] bg-center bg-cover bg-no-repeat relative"
-        style={{ backgroundImage: `url(${bgImage.src})` }}
+        style={{ backgroundImage: `url(/unHome.png)` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
       </div>

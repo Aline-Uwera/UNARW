@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../../public/programs_images/img2.jpg"; // replace with info-training-related image
 
 const Page = () => {
   const programData = {
@@ -36,7 +35,7 @@ The Information Training and Resource Centre is more than a program it is a move
       {/* Hero Section */}
       <div
         className="py-32 h-[256px] bg-center bg-cover bg-no-repeat relative"
-        style={{ backgroundImage: `url(${img1.src})` }}
+        style={{ backgroundImage: `url(/programs_images/img2.jpg)` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
         <div className="relative z-10 flex items-center justify-center h-full">

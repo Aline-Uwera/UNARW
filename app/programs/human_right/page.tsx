@@ -44,7 +44,7 @@ const Page = () => {
       {/* Hero Section */}
       <div
         className="py-32 h-[256px] bg-center bg-cover bg-no-repeat relative"
-        style={{ backgroundImage: url('/programs_images/img4.jpg') }}
+        style={{ backgroundImage: `url('/programs_images/img4.jpg')` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
         <div className="relative z-10 flex items-center justify-center h-full">

@@ -3,7 +3,6 @@
 import { HeartIcon, UserIcon } from "@heroicons/react/16/solid";
 import { RiMailLine } from "react-icons/ri";
 import React, { useState } from "react";
-import bgImage from "../../public/getinvolved.jpeg";
 import EmailSubscriptionPopup from "@/components/ui/EmailSubscriptionPopup";
 import GetInvolvedForm from "@/components/forms/GetInvolvedForm";
 
@@ -41,7 +40,7 @@ const GetInvolved = () => {
       <main className=" bg-white">
         <div
           className="pt-36 h-[256px] bg-center bg-cover bg-no-repeat relative"
-          style={{ backgroundImage: `url(${bgImage.src})` }}
+          style={{ backgroundImage: `url(/getinvolved.jpeg)` }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
         </div>
